@@ -1,0 +1,31 @@
+{
+  "name": "@dkaframework/encryption",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Yovangga Anandhika",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev-test": "nodemon --watch src --watch test --exec ts-node test/index.ts",
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/lodash": "^4.14.182",
+    "crypto-js": "^4.1.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.37",
+    "mysqldump": "^3.2.0",
+    "tcp-port-used": "^1.0.2",
+    "types": "^0.1.1",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.7.14",
+    "typescript": "^4.7.4"
+  }
+}
